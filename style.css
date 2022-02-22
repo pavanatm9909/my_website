@@ -199,7 +199,7 @@ img{
 /*end header*/
 
 #hero{
-    background-image: url(hero-bg.jpg);
+    background-image: url(pics/hero-bg.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -235,6 +235,7 @@ img{
     animation-delay: 1s;
 }
 #hero h1:nth-child(2){
+    animation: text_reveal_name .5s ease forwards;
     animation-delay: 2s;
 }
 #hero h1:nth-child(3){
@@ -291,7 +292,7 @@ img{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(micro1.jpg);
+    background-image: url(pics/micro1.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -535,7 +536,7 @@ img{
 .galary{
     width:400px;
     height:225px;
-    background-image: url(img11.jpg);
+    background-image: url(pics/img11.jpg);
     background-size: cover;
     margin: 100px auto;
     animation: slide 20s infinite;
@@ -673,34 +674,34 @@ img{
 }
 @keyframes slide{
     10%{
-        background-image: url(img21.jpg);
+        background-image: url(pics/img21.jpg);
     }
     20%{
-        background-image: url(img31.jpg);
+        background-image: url(pics/img31.jpg);
     }
     30%{
-        background-image: url(img41.jpg);
+        background-image: url(pics/img41.jpg);
     }
     40%{
-        background-image: url(img51.jpg);
+        background-image: url(pics/img51.jpg);
     }
     50%{
-        background-image: url(img61.jpg);
+        background-image: url(pics/img61.jpg);
     }
     60%{
-        background-image: url(img71.jpg);
+        background-image: url(pics/img71.jpg);
     }
     70%{
-        background-image: url(img81.jpg);
+        background-image: url(pics/img81.jpg);
     }
     80%{
-        background-image: url(img91.jpg);
+        background-image: url(pics/img91.jpg);
     }
     90%{
-        background-image: url(img41.jpg);
+        background-image: url(pics/img41.jpg);
     }
     100%{
-        background-image: url(./galary/img11.jpg);
+        background-image: url(pics/img11.jpg);
     }
 
 }
